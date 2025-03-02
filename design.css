@@ -991,7 +991,7 @@ h2 {
         align-items: start;
         justify-content: center;
         row-gap: 12px;
-        background-color:rgb(65, 52, 248);
+        background-color:rgb(41, 248, 255);
         z-index: 2;
         border-radius: 5px;
         padding-left: 30px;
@@ -1460,7 +1460,7 @@ h2 {
         align-items: start;
         justify-content: center;
         row-gap: 10px;
-        background-color:red;
+        background-color:rgb(41, 248, 255);
         padding-left: 30px;
         
 
