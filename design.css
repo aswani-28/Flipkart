@@ -60,7 +60,7 @@ main {
 
 .nav {
     width: 100%;
-    background-color:rgb(53, 39, 245);
+    background-color:rgb(29, 13, 253);
     top: 0;
     left: 0;
     padding: 20px;
@@ -991,7 +991,7 @@ h2 {
         align-items: start;
         justify-content: center;
         row-gap: 12px;
-        background-color:rgb(53, 39, 245);
+        background-color:rgb(65, 52, 248);
         z-index: 2;
         border-radius: 5px;
         padding-left: 30px;
@@ -1460,7 +1460,7 @@ h2 {
         align-items: start;
         justify-content: center;
         row-gap: 10px;
-        background-color:rgb(132, 132, 250);
+        background-color:red;
         padding-left: 30px;
         
 
