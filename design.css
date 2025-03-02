@@ -1,0 +1,2790 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: rgb(221, 240, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+
+.sear {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+
+}
+
+.searr {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 7px;
+
+
+
+
+}
+
+
+.tline {
+    width: 35px;
+    height: 35px;
+    mix-blend-mode: multiply;
+    margin-left: 40px;
+    display: none;
+}
+
+.nav .logo {
+    filter: hue-rotate(90deg);
+    opacity: 30;
+    mix-blend-mode: difference
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav {
+    width: 100%;
+    background-color: rgb(255, 143, 203);
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav .nav-link {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 3rem;
+
+
+}
+
+.cross {
+    font-size: 40px;
+    display: none;
+}
+
+
+
+.icon1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+    cursor: pointer
+}
+
+
+
+.text1 img:hover {
+    transform: rotate(180deg);
+    transition: 1s;
+
+}
+
+.textt {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.icon2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sea {
+    background-color: rgb(221, 240, 243);
+    width: 520px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sea1 {
+
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    display: none;
+    border: 2px solid deeppink
+}
+
+.sea1 input {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 192, 248);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+
+
+
+
+.sea input {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 240, 243);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 15px
+}
+
+.sea .sear {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+
+
+.text1 {
+    font-size: 20px;
+}
+
+.text3 {
+    font-size: 20px;
+}
+
+.text2 {
+    font-size: 20px;
+}
+
+.line {
+    margin: 50px;
+
+}
+
+.logg {
+    width: 0;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(247, 247, 247);
+    z-index: 2;
+    overflow: hidden;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.inside {
+    width: 100%;
+    height: 100%;
+    padding: 10px
+}
+
+.row {
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+
+.row:hover {
+    background-color: rgb(221, 240, 243);
+    font-size: 20px;
+    color: deeppink
+}
+
+.list {
+    padding-right: 10px;
+}
+
+.herr {
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.sign {
+    text-indent: 30px;
+    color: rgb(73, 73, 218);
+    font-size: 18px;
+}
+
+.new {
+    font-size: 16px;
+}
+
+.linn {
+    display: none;
+    background-color: rgb(204, 202, 202);
+    position: fixed;
+    height: 1px;
+    width: 252px;
+    left: 60%;
+    top: 21%;
+
+}
+
+.ficol {
+    border-radius: 10px;
+    width: 95%;
+    padding: 15px;
+    height: 110px;
+    background-color: azure;
+    margin: 10px
+}
+
+.in {
+    display: flex;
+    width: 95%;
+    height: 110px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.alo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b {
+    font-size: 20px;
+    z-index: 1;
+}
+
+.x {
+    animation: vib 2s infinite;
+}
+
+@keyframes vib {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+.too {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+.floww {
+
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns:100%;
+    justify-items: stretch;
+    animation:slide 15s linear infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.mainn {
+    position: relative;
+    height: 100%;
+    width: 97%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.floww img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.imm:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+
+
+.third {
+    width: 98%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 10px;
+
+
+}
+
+.extra {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: start;
+
+    width: 75%;
+    padding: 15px;
+    margin: 10px;
+    height: 300px;
+    background-color: azure;
+
+
+}
+
+.imgh:hover {
+    transform: scale(1.3);
+}
+
+.secped {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    height: 300px;
+    background-color: azure;
+
+}
+
+.anoo {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+    height: 100%;
+    background-color: azure;
+
+}
+
+.fifth {
+    width: 250px;
+    height: 320px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.imgh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.imgh:hover {
+    color: rgb(72, 72, 211);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.india {
+    height: 100%;
+    width: 100%
+}
+
+.c {
+    width: 130px;
+    height: 130px
+}
+
+.d {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.another {
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.sixth {
+    width: 99%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+
+}
+
+.six {
+    width: 96%;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+
+.sevv {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 29.2%;
+    padding: 15px;
+    margin: 10px;
+    height: 550px;
+    background-color: azure;
+
+
+}
+
+.sev {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 29.2%;
+    padding: 15px;
+    margin: 10px;
+    height: 550px;
+    background-color: azure;
+
+}
+
+.seventh {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 34%;
+    padding: 15px;
+    margin: 10px;
+    height: 550px;
+    background-color: azure;
+
+}
+
+.g {
+    width: 70%;
+    height: 70%;
+
+
+}
+
+.i {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+h2 {
+    color: green
+}
+
+.f {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h {
+    font-size: larger;
+
+}
+
+.eighth {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 60%;
+    padding: 15px;
+    margin: 10px;
+    height: 550px;
+    background-color: azure;
+
+}
+
+.phone {
+    width: 100%;
+    height: 100%;
+}
+
+.three {
+    width: 95%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px
+}
+
+.im1 {
+    width: 33%;
+    height: 33%;
+}
+
+.phones {
+    width: 97%;
+    border-radius: 15px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    padding: 10px;
+    margin: 20px;
+    height: 275px;
+    background-color: white;
+    border-radius: 10px;
+    ;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.names h2 {
+    color: black;
+    font-style: italic;
+}
+
+.all h2 {
+    color: blue
+}
+
+.phonn {
+    width: 70%;
+    height: 100%;
+}
+
+.so {
+    width: 96%;
+    height: 20%;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.g:hover {
+    width: 85%;
+    height: 85%;
+}
+
+.sevo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 95%;
+    padding: 15px;
+    margin: 10px;
+    height: 500px;
+
+
+
+}
+
+.anot {
+    width: 35%;
+    height: 550px;
+    margin: 10px;
+    background-color: azure;
+    border: 20px solid azure;
+    border-radius: 10px;
+}
+
+.fur {
+    width: 100%;
+    height: 100%;
+    ;
+}
+
+.arro {
+    transform: rotate(-90deg);
+    font-size: larger;
+}
+
+.two {
+    background-color: azure;
+    width: 29%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nama {
+    font-size: 25px;
+    color: blue;
+    padding: 10px;
+}
+
+.wrr {
+    width: 95%;
+    height: 900px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+.wr1 {
+    width: 32.5%;
+    height: 30%;
+    animation: vio 2s infinite;
+
+
+}
+
+@keyframes vio {
+    0% {
+        transform: scale(0.8)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(0.8)
+    }
+}
+
+.fl {
+    width: 95%;
+    height: 250px;
+    margin: 10px
+}
+
+.long {
+    width: 100%;
+    height: 100%
+}
+
+.noti {
+    width: 0px;
+    height: 180px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    position: fixed;
+    top: 15%;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    z-index: 2;
+    overflow-x: hidden;
+}
+
+.noo {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    width: 90%;
+
+}
+
+.noo:hover {
+    background-color: pink;
+
+}
+
+.texo {
+    font-size: 16px;
+
+}
+
+.line:hover {
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.back {
+    width: 100%;
+    height: 330px;
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.first {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 30px
+}
+
+.back1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px
+}
+.back2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px
+
+}
+
+.top {
+    color: gray;
+    font-size: 15px;
+
+}
+
+.small {
+    text-decoration: none;
+    color: white;
+    font-size: 15px
+}
+
+.small:hover {
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.ano {
+    color: white;
+    font-size: 15px;
+}
+
+.linoo {
+
+    background-color: rgb(109, 102, 102);
+    width: 0.0005px;
+    height: 200px
+}
+
+.lino1 {
+    height: 0.5px;
+    width: 1300px;
+    background-color: azure;
+
+}
+
+.second {
+    width: 100%;
+    height: 100px;
+}
+
+.inn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    background-color: rgb(43, 41, 41);
+
+}
+
+.last1 {
+    color: white;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.last6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px
+}
+
+.icons {
+    color: white;
+    font-size: 30px;
+    row-gap: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:480px) {
+    body, html{
+        overflow-x: hidden;
+        
+    }
+    .logg{
+        left:200px;
+        top:130px;
+        
+        
+        height:220px
+    }
+
+    
+    .noti{
+        left:200px;
+        top:250px
+
+    }
+   
+    .nav {
+        padding: 13px
+    }
+
+    .nav .nav-link {
+        position: fixed;
+        top: 70px;
+        left: -43%;
+        width: 35%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        row-gap: 10px;
+        background-color: rgb(241, 117, 183);
+        z-index: 2;
+        border-radius: 20px;
+        padding-left: 30px;
+
+
+    }
+
+    .tline {
+        display: block;
+    }
+
+    .cross {
+        display: block;
+        margin-left: 130px;
+
+    }
+
+    #seaa {
+        width: 280px;
+        position: absolute;
+        top: 17px;
+        left: 90px;
+
+    }
+
+    .sea1 {
+        margin-top: 5px;
+        display: block;
+        background-color: rgb(255, 192, 248);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sear {
+        opacity: 1;
+        margin-right: 4rem;
+        width: 40px;
+        height: 40px
+    }
+
+    .logo {
+        margin-right: 50px;
+    }
+
+    .sea {
+        display: none;
+    }
+
+
+    .ficol {
+        width: 31%;
+        height: 100px;
+        margin: 10px;
+        background-color: rgb(255, 211, 248);
+        padding: 10px;
+
+
+    }
+
+    .in {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+
+
+    .alo .x {
+        width: 55px;
+        height: 55px;
+        margin-left: 20px;
+
+    }
+
+    .b {
+        font-size: 17px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+
+    .mainn {
+        width: 32%;
+        height: 65px;
+
+
+    }
+
+    .floww img {
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .flow {
+        width: 100%;
+        height: 100%
+    }
+
+    button {
+        width: 60px;
+        height: 30px;
+    }
+
+    button:hover {
+        width: 60px;
+        height: 30px;
+
+    }
+
+    button img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .third {
+        width: 30%;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+
+
+    }
+
+    .third .fourth {
+        width: 47%;
+        height: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .extra {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+
+
+    }
+
+    .third .secped {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+
+    }
+
+    .anoo {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+    }
+
+    .fourth h1 {
+        font-size: 17px;
+    }
+
+    .secped h1 {
+        font-size: 20px;
+
+    }
+
+    .imgh {
+        display: inline-block;
+        margin-left: 30px;
+        align-items: center;
+        justify-content: center
+    }
+
+    .imgh .c {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .d {
+        font-size: 15px;
+
+    }
+
+    .d .another {
+        font-size: 15px;
+    }
+
+    .fifth {
+        width: 53%;
+        height: 100%
+    }
+
+    .secped {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+        height: 300px;
+
+    }
+
+    .anoo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        padding: 0
+    }
+
+    .sixth {
+        width: 30%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        ;
+    }
+
+    .seventh {
+        width: 90%;
+        height: 600px
+    }
+
+    .eighth {
+        width: 90%;
+
+
+    }
+
+    .six {
+        width: 30%;
+        height: 225rem;
+
+    }
+
+    .sevv {
+        width: 90%;
+
+    }
+
+    .three {
+        width: 30%;
+        height: 25%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .im1 {
+        display: inline-block;
+        height: 100%;
+        width: 100%
+    }
+
+    .all {
+        width: 30%;
+        height: 200px;
+        align-items: start;
+
+    }
+
+    .all h1 {
+        font-size: 20px;
+        ;
+    }
+
+    .names {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+    .names h2 {
+        font-size: 17px;
+    }
+
+    .phones {
+        width: 100%;
+        height: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+    }
+
+    .phonn {
+        width: 130px;
+        height: 130px
+    }
+
+    .so {
+        width: 30%;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+
+    }
+
+    .two {
+        width: 100%;
+        height: 80%;
+        margin-bottom: 20px;
+    }
+
+    .anot {
+        width: 85%;
+        height: 50%
+    }
+
+    .wrr {
+        width: 30%;
+        height: 300px;
+        
+    }
+    .wr1{
+        width:31%;
+        height:31%
+    }
+    .fl{
+        width: 30%;
+    height: 130px;
+    }
+    .long{
+        width:100%;
+        height:100%;
+    }
+    .back{
+        width:30%;
+        height:400px;
+        
+    }
+    .first{
+        width:100%;
+        height:30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .back1{
+        width:20%;
+        
+    }
+    .linoo{
+        display: none;
+    }
+    .back2 .ano{
+        display: none;
+    }
+    .back2 .small{
+        display: none;
+    }
+    .back2 .top{
+        display: none;
+    }
+    .back2 .icons{
+        font-size: 40px;
+        
+    }
+    .lino1{
+        height: 0.5px;
+    width: 360px;
+    margin-top: 100px;
+    
+    }
+    .second{
+        width:30%;
+        
+        
+    }
+    .inn{
+        width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+        align-items: center;
+    }
+    .last1 {
+        width:40px;
+        
+    }
+    .last1 {
+        font-size: 10px;
+    }
+    .last2{
+        width:15rem;
+        align-self: center;
+        
+        
+    }
+    .last2 .fin{
+        width:300px;
+        
+    }
+    
+    
+
+
+
+
+}
+@media only screen and (max-width:390px) {
+    body, html{
+        overflow-x: hidden;
+        
+    }
+    .logg{
+        left:150px;
+        top:130px;
+
+        
+        
+        height:200px;
+        
+    }
+
+    
+    .noti{
+        left:150px;
+        top:250px
+
+    }
+   
+    .nav {
+        padding: 13px
+    }
+
+    .nav .nav-link {
+        position: fixed;
+        top: 70px;
+        left: -55%;
+        width: 34%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        row-gap: 10px;
+        background-color: rgb(241, 117, 183);
+        z-index: 2;
+        border-radius: 20px;
+        padding-left: 30px;
+
+
+    }
+    .text1,.text2,.text3,.textt{
+        font-size: 15px;
+    }
+
+    .tline {
+        display: block;
+    }
+
+    .cross {
+        display: block;
+        margin-left: 100px;
+
+    }
+
+    #seaa {
+        width: 280px;
+        position: absolute;
+        top: 17px;
+        left: 90px;
+
+    }
+
+    .sea1 {
+        margin-top: 5px;
+        display: block;
+        background-color: rgb(255, 192, 248);
+        display: flex;
+        flex-direction: row;
+        width:340px
+    }
+
+    .sear {
+        opacity: 1;
+        margin-right: 4rem;
+        width: 40px;
+        height: 40px
+    }
+
+    .logo {
+        margin-right: 50px;
+    }
+
+    .sea {
+        display: none;
+    }
+
+
+    .ficol {
+        width: 27%;
+        height: 100px;
+        margin: 10px;
+        background-color: rgb(255, 211, 248);
+        padding: 10px;
+
+
+    }
+
+    .in {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+
+
+    .alo .x {
+        width: 55px;
+        height: 55px;
+        margin-left: 20px;
+
+    }
+
+    .b {
+        font-size: 17px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+
+    .mainn {
+        width: 27%;
+        height: 55px;
+
+
+    }
+
+    .floww img {
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .flow {
+        width: 100%;
+        height: 100%
+    }
+
+    button {
+        width: 30px;
+        height: 30px;
+        display: none;}
+
+    
+
+    .third {
+        width: 27%;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+
+
+    }
+
+    .third .fourth {
+        width: 47%;
+        height: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .extra {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+
+
+    }
+
+    .third .secped {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+
+    }
+
+    .anoo {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+    }
+
+    .fourth h1 {
+        font-size: 17px;
+    }
+
+    .secped h1 {
+        font-size: 20px;
+
+    }
+
+    .imgh {
+        display: inline-block;
+        margin-left: 30px;
+        align-items: center;
+        justify-content: center
+    }
+
+    .imgh .c {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .d {
+        font-size: 15px;
+
+    }
+
+    .d .another {
+        font-size: 15px;
+    }
+
+    .fifth {
+        width: 53%;
+        height: 100%
+    }
+
+    .secped {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+        height: 300px;
+
+    }
+
+    .anoo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        padding: 0
+    }
+
+    .sixth {
+        width: 27%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        ;
+    }
+
+    .seventh {
+        width: 90%;
+        height: 600px
+    }
+
+    .eighth {
+        width: 90%;
+
+
+    }
+
+    .six {
+        width: 27%;
+        height: 225rem;
+
+    }
+
+    .sevv {
+        width: 90%;
+
+    }
+
+    .three {
+        width: 27%;
+        height: 25%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .im1 {
+        display: inline-block;
+        height: 100%;
+        width: 100%
+    }
+
+    .all {
+        width: 27%;
+        height: 200px;
+        align-items: start;
+
+    }
+
+    .all h1 {
+        font-size: 20px;
+        ;
+    }
+
+    .names {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+    .names h2 {
+        font-size: 17px;
+    }
+
+    .phones {
+        width: 100%;
+        height: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+    }
+
+    .phonn {
+        width: 130px;
+        height: 130px
+    }
+
+    .so {
+        width: 27%;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+
+    }
+
+    .two {
+        width: 100%;
+        height: 80%;
+        margin-bottom: 20px;
+    }
+
+    .anot {
+        width: 85%;
+        height: 50%
+    }
+
+    .wrr {
+        width: 27%;
+        height: 300px;
+        
+    }
+    .wr1{
+        width:31%;
+        height:31%
+    }
+    .fl{
+        width: 27%;
+    height: 130px;
+    }
+    .long{
+        width:100%;
+        height:100%;
+    }
+    .back{
+        width:27%;
+        height:350px;
+        
+    }
+    .first{
+        width:100%;
+        height:38%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .back1{
+        width:20%;
+        
+    }
+    .linoo{
+        display: none;
+    }
+    .back2 .ano{
+        display: none;
+    }
+    .back2 .small{
+        display: none;
+    }
+    .back2 .top{
+        display: none;
+    }
+ 
+    
+    .lino1{
+        height: 0.5px;
+    width: 320px;
+    margin-top: 100px;
+    
+    }
+    .second{
+        width:27%;
+        
+        
+    }
+    .sear{
+        width:30px;
+        height:30px
+    }
+    .tlines{
+        width:30px;
+        height:30px
+    }
+    .inn{
+        width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+        align-items: center;
+    }
+    .last1 {
+        width:30px;
+        
+    }
+    .last1 {
+        font-size: 10px;
+    }
+    .last2{
+        width:15rem;
+        align-self: center;
+        
+        
+    }
+    .last2 .fin{
+        width:300px;
+        
+    }
+    
+    
+
+
+
+
+}
+
+/*@media only screen and (max-width:1059px) {
+    .nav {
+
+        background-color: rgb(248, 231, 231);
+
+    }
+
+
+    .nav .sea {
+        width: 280px;
+        height: 50px
+    }
+
+    .nav .icon1 {
+        width: 100px;
+    }
+
+    .nav .icon1 .text1 {
+        font-size: 17px;
+    }
+
+    .nav .icon2 {
+        width: 60px
+    }
+
+    .nav .icon3 {
+        width: 140px
+    }
+
+    .nav .icon2 .text2 {
+        font-size: 17px;
+    }
+
+    .nav .icon3 .text3 {
+        font-size: 17px;
+    }
+
+    .ficol {
+        width: 74%;
+        height: 100px;
+    }
+
+    .ficol .in .alo .x {
+        width: 60px;
+        height: 60px
+    }
+
+    .ficol .in .too {
+        font-size: 15px;
+    }
+
+    .in {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mainn {
+        position: relative;
+        height: 167px;
+        width: 77%;
+
+    }
+
+    .floww {
+        width: 100%;
+        height: 100%
+    }
+
+    .floww img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .third {
+        width: 79%;
+        height: 330px;
+        margin: 15px;
+    }
+
+    .fourth {
+        width: 68%;
+        padding: 15px;
+        margin: 10px;
+        height: 300px;
+
+    }
+
+    .sixth {
+        width: 80%;
+        height: 600px;
+
+    }
+
+    .six {
+        width: 80%;
+        height: 1100px;
+
+    }
+
+    .sevv {
+        width: 28%;
+        height: 500px;
+    }
+
+    .three {
+        width: 78%;
+        height: 25%;
+    }
+
+    .all {
+        width: 75%;
+        height: 250px
+    }
+
+    .so {
+        width: 78%;
+        height: 20%;
+    }
+
+    .two {
+        width: 30%;
+        height: 90%
+    }
+
+    .nama {
+        font-size: 22px;
+    }
+
+    .anot {
+        width: 32%
+    }
+
+    .wrr {
+
+        width: 76%;
+        height: 850px;
+        gap: 10px;
+    }
+
+    .fl {
+        width: 76%;
+        height: 200px
+    }
+
+    .back {
+        width: 80%;
+        height: 300px
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:950px) {
+    .ficol {
+        width: 65%;
+        height: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .in {
+        margin-top: 15px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .ficol .in .alo .x {
+        width: 35px;
+        height: 35px
+    }
+
+    .ficol .in .too {
+        font-size: 15px;
+
+    }
+
+    .mainn {
+        position: relative;
+        height: 150px;
+        width: 67%;
+    }
+
+    .floww {
+        width: 100%;
+        height: 100%
+    }
+
+    .floww img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .third {
+        width: 65%;
+        height: 300px;
+        margin: 30px;
+    }
+
+    .fourth {
+        width: 75%;
+        padding: 15px;
+        margin: 20px;
+        height: 300px;
+
+    }
+
+    .fourth h1 {
+        font-size: 26px;
+    }
+
+    .fourth img {
+        width: 80px;
+        height: 100px
+    }
+
+    .d {
+        font-size: 15px;
+    }
+
+    .sixth {
+        width: 60%;
+        height: 500px;
+
+    }
+
+    .seventh {
+        width: 34%;
+        height: 450px;
+
+    }
+
+    .eighth {
+        width: 50%;
+        height: 450px;
+    }
+
+    .seventh .h {
+        font-size: 20px;
+    }
+
+    .seventh h2 {
+        font-size: 20px;
+    }
+
+    .six {
+        width: 60%;
+        height: 900px;
+
+    }
+
+    .sevv {
+        width: 26%;
+        height: 400px;
+    }
+
+    .sevv h {
+        font-size: 15px;
+
+    }
+
+    .sevv h2 {
+        font-size: 15px;
+    }
+
+    .three {
+        width: 60%;
+        height: 25%;
+    }
+
+    .all {
+        width: 60%;
+        height: 230px;
+    }
+
+    .all .phonn {
+        width: 120px;
+        height: 100px
+    }
+
+    .all h1 {
+        font-size: 25px;
+    }
+
+    .names h2 {
+        font-size: 20px;
+    }
+
+    .so {
+        width: 60%;
+        height: 20%;
+    }
+
+    .f .g {
+        width: 50px;
+        height: 80px
+    }
+
+    .sevo .f {
+        width: 90px;
+        height: 200px
+    }
+
+    .so .two {
+        width: 27.5%;
+        height: 30%
+    }
+
+    .nama {
+        font-size: 16px;
+    }
+
+    .anot {
+        width: 32%
+    }
+
+    .sevo .h {
+        font-size: 15px;
+    }
+
+    .sevo h2 {
+        font-size: 15px;
+    }
+
+    .wrr {
+
+        width: 60%;
+        height: 650px;
+
+    }
+
+    .wr1 {
+        width: 250px;
+        height: 200px
+    }
+
+    .fl {
+        width: 60%;
+        height: 170px
+    }
+
+    .long {
+        height: 150px
+    }
+
+    .back {
+        width: 70%;
+    }
+
+    .small {
+        font-size: 12px;
+    }
+
+    .top {
+        font-size: 11px;
+    }
+
+    .ano {
+        font-size: 12px;
+    }
+
+    .second .last1 {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:850px) {
+    .nav {
+        width: 100%;
+        background-color: rgb(248, 231, 231);
+
+    }
+
+    .nav .logo {
+        width: 150px;
+        height: 120px;
+    }
+
+    .nav .sea {
+        width: 200px;
+        height: 50px
+    }
+
+    .nav .icon1 {
+        width: 100px;
+    }
+
+    .nav .icon1 .text1 {
+        font-size: 15px;
+    }
+
+    .nav .icon2 {
+        display: none;
+
+    }
+
+    .nav .icon3 {
+        display: none;
+    }
+
+    .ficol {
+        width: 54%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .in {
+        margin-top: 15px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .ficol .in .alo .x {
+        width: 32px;
+        height: 32px
+    }
+
+    .ficol .in .too {
+        font-size: 12px;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+    }
+
+    button:hover {
+        width: 45px;
+        height: 45px;
+
+
+    }
+
+
+    .mainn {
+        position: relative;
+        height: 120px;
+        width: 55%;
+
+    }
+
+    .floww {
+        width: 100%;
+        height: 100%
+    }
+
+    .floww img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .third {
+        width: 58%;
+        height: 290px;
+        margin: 30px;
+
+    }
+
+    .fourth {
+        width: 75%;
+        padding: 15px;
+        margin: 20px;
+        height: 280px;
+
+    }
+
+    .fourth h1 {
+        font-size: 26px;
+    }
+
+    .fourth img {
+        width: 80px;
+        height: 100px
+    }
+
+    .d {
+        font-size: 15px;
+    }
+
+    .secped {
+        width: 100%;
+        height: 250px
+    }
+
+    .secped img {
+        width: 90px;
+        height: 100px
+    }
+
+    .sixth {
+        width: 58%;
+        height: 400px;
+
+    }
+
+    .seventh {
+        width: 40%;
+        height: 400px;
+
+    }
+
+    .eighth {
+        width: 60%;
+        height: 400px;
+    }
+
+    .seventh .h {
+        font-size: 15px;
+    }
+
+    .seventh h2 {
+        font-size: 15px;
+    }
+
+    .six {
+        width: 58%;
+        height: 800px;
+
+    }
+
+    .sevv {
+        width: 26%;
+        height: 350px;
+    }
+
+    .sevv .h {
+        font-size: 12px;
+    }
+
+    .sevv h2 {
+        font-size: 12px;
+    }
+
+    .three {
+        width: 55%;
+        height: 25%;
+    }
+
+    .all {
+        width: 53%;
+        height: 230px;
+    }
+
+    .all .phonn {
+        width: 100px;
+        height: 80px
+    }
+
+    .all h1 {
+        font-size: 20px;
+    }
+
+    .names h2 {
+        font-size: 16px;
+    }
+
+    .so {
+        width: 53%;
+        height: 20%;
+    }
+
+    .two {
+        width: 28%;
+        height: 90%;
+    }
+
+    .two .sevo {
+        height: 400px;
+    }
+
+    .nama {
+        font-size: 13px;
+    }
+
+    .anot {
+        width: 34%;
+        height: 430px
+    }
+
+    .sevo .h {
+        font-size: 12px;
+    }
+
+    .sevo h2 {
+        font-size: 12px;
+    }
+
+    .wrr {
+
+        width: 50%;
+        height: 600px;
+
+    }
+
+    .wr1 {
+        width: 200px;
+        height: 180px
+    }
+
+    .fl {
+        width: 53%;
+        height: 150px
+    }
+
+    .back {
+        width: 53%;
+    }
+
+    .small {
+        font-size: 10px;
+    }
+
+    .top {
+        font-size: 10px;
+    }
+
+    .ano {
+        font-size: 11px;
+    }
+
+    .second .last1 {
+        font-size: 11px;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:550px) {
+
+
+
+    .nav .logo {
+        width: 200px;
+        height: 150px;
+    }
+
+    .nav .sea {
+        display: none;
+    }
+
+
+
+    .ficol {
+        width: 36%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .in {
+        margin-top: 7px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .ficol .in .alo .x {
+        width: 26px;
+        height: 26px
+    }
+
+    .ficol .in .too {
+        font-size: 9px;
+    }
+
+    .mainn {
+        position: relative;
+        height: 85px;
+        width: 38%;
+
+    }
+
+    .floww {
+        width: 100%;
+        height: 100%
+    }
+
+    .floww img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .third {
+        width: 40%;
+        height: 150px;
+    }
+
+    .secped h1 {
+        font-size: 10px;
+    }
+
+    .secped {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+        height: 150px;
+    }
+
+    .secped img {
+        width: 50px;
+        height: 100px
+    }
+
+    .fifth {
+        width: 120px;
+        height: 200px
+    }
+
+    .fourth {
+        width: 75%;
+
+
+        height: 180px;
+
+    }
+
+    .fourth h1 {
+        font-size: 18px;
+    }
+
+    .fourth img {
+        width: 40px;
+        height: 60px
+    }
+
+    .d {
+        font-size: 7px;
+    }
+
+    .texth p {
+        font-size: 8px;
+    }
+
+    .sixth {
+        width: 39%;
+        height: 300px;
+
+    }
+
+    .seventh {
+        width: 37%;
+        height: 300px;
+
+    }
+
+    .seventh .f {
+        width: 75px;
+        height: 140px
+    }
+
+    .eighth {
+        width: 60%;
+        height: 300px;
+    }
+
+    .seventh .h {
+        font-size: 10px;
+    }
+
+    .seventh h2 {
+        font-size: 10px;
+    }
+
+    .six {
+        width: 40%;
+        height: 580px;
+
+    }
+
+    .sevv {
+        width: 23%;
+        height: 240px;
+    }
+
+    .sevv .h {
+        font-size: 7px;
+    }
+
+    .sevv .f {
+        width: 50px;
+        height: 120px
+    }
+
+    .sevv .g {
+        width: 35px;
+        height: 80px
+    }
+
+    .sevv h2 {
+        font-size: 7px;
+    }
+
+    .three {
+        width: 37%;
+        height: 25%;
+    }
+
+    .all {
+        width: 37%;
+        height: 170px;
+    }
+
+    .all .phonn {
+        width: 80px;
+        height: 70px
+    }
+
+    .all h1 {
+        font-size: 15px;
+    }
+
+    .names h2 {
+        font-size: 13px;
+    }
+
+    .so {
+        width: 37%;
+        height: 17%
+    }
+
+    .two {
+        width: 10%;
+        height: 300px
+    }
+
+    .two .sevo {
+        height: 300px;
+    }
+
+    .nama {
+        font-size: 8px;
+    }
+
+    .anot {
+        width: 30%;
+        height: 350px
+    }
+
+    .sevo .h {
+        font-size: 10px;
+    }
+
+    .sevo h2 {
+        font-size: 10px;
+    }
+
+    .sevo .f {
+        width: 60px;
+        height: 160px
+    }
+
+    .wrr {
+
+        width: 34%;
+        height: 500px;
+
+    }
+
+    .wr1 {
+        width: 140px;
+        height: 150px
+    }
+
+    .fl {
+        width: 37%;
+        height: 150px
+    }
+
+    .back .first {
+        display: none;
+    }
+
+    .back .back1 {
+        display: none;
+    }
+
+    .back {
+        width: 36%;
+        height: 50px
+    }
+
+    .last1 .fin {
+        display: none;
+    }
+    
+}*/
